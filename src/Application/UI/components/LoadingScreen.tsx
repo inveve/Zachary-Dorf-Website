@@ -270,6 +270,11 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                             <p>START</p>
                         </div>
                     </div>
+                    <div className="bios-nav-links">
+                        <a href="/about/">ABOUT</a>
+                        <a href="/press/">PRESS</a>
+                        <a href="/faq/">FAQ</a>
+                    </div>
                 </div>
             </div>
             {firefoxError && (
