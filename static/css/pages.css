@@ -19,20 +19,20 @@ body {
 }
 
 ::selection {
-  background: #1a3a1a;
-  color: #00ff41;
+  background: #1a2a3a;
+  color: #3d7ab5;
 }
 
 a {
-  color: #00ff41;
+  color: #3d7ab5;
   text-decoration: none;
   transition: color 0.2s, text-shadow 0.2s;
 }
 
 a:hover {
-  color: #33ff66;
+  color: #5a9ad5;
   text-decoration: none;
-  text-shadow: 0 0 8px rgba(0, 255, 65, 0.4);
+  text-shadow: 0 0 8px rgba(61, 122, 181, 0.4);
 }
 
 /* Layout */
@@ -73,10 +73,23 @@ a:hover {
   font-size: 0.85rem;
 }
 
+.nav-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 4px;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.nav-logo:hover {
+  opacity: 1;
+}
+
 .nav-brand {
   font-weight: 700;
   font-size: 0.95rem;
-  color: #00ff41;
+  color: #3d7ab5;
   text-decoration: none;
   margin-right: auto;
   letter-spacing: 0.05em;
@@ -88,9 +101,9 @@ a:hover {
 }
 
 .nav-brand:hover {
-  color: #00ff41;
+  color: #3d7ab5;
   text-decoration: none;
-  text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+  text-shadow: 0 0 10px rgba(61, 122, 181, 0.5);
 }
 
 .nav a {
@@ -101,12 +114,12 @@ a:hover {
 }
 
 .nav a:hover {
-  color: #00ff41;
+  color: #3d7ab5;
   text-decoration: none;
 }
 
 .nav a.active {
-  color: #00ff41;
+  color: #3d7ab5;
 }
 
 .nav a.active::before {
@@ -138,7 +151,7 @@ h1::before {
 h2 {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #00ff41;
+  color: #3d7ab5;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   letter-spacing: 0.02em;
@@ -210,7 +223,7 @@ em {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, #1a3a1a, transparent);
+  background: linear-gradient(90deg, transparent, #1a2a3a, transparent);
 }
 
 .stat-number {
@@ -253,7 +266,7 @@ em {
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: #00ff41;
+  color: #3d7ab5;
   margin-bottom: 0.15rem;
   opacity: 0.7;
 }
@@ -268,8 +281,8 @@ em {
 }
 
 .press-title a:hover {
-  color: #00ff41;
-  text-shadow: 0 0 8px rgba(0, 255, 65, 0.3);
+  color: #3d7ab5;
+  text-shadow: 0 0 8px rgba(61, 122, 181, 0.3);
 }
 
 .press-title a::before {
@@ -299,7 +312,7 @@ em {
 
 .faq-question::before {
   content: '? ';
-  color: #00ff41;
+  color: #3d7ab5;
   opacity: 0.6;
 }
 
@@ -328,8 +341,8 @@ em {
 }
 
 .social-links a:hover {
-  color: #00ff41;
-  text-shadow: 0 0 8px rgba(0, 255, 65, 0.3);
+  color: #3d7ab5;
+  text-shadow: 0 0 8px rgba(61, 122, 181, 0.3);
 }
 
 /* Footer */
@@ -346,7 +359,7 @@ em {
 }
 
 .page-footer a:hover {
-  color: #00ff41;
+  color: #3d7ab5;
 }
 
 /* Section divider */
