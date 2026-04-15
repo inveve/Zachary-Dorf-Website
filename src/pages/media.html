@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Media | Zachary Dorf - Bask Health</title>
+  <meta name="description" content="Photos and videos from Bask Health events, offsites, and conferences. Featuring HLTH 2024 & 2025, Italy offsite, New York onsite, and more.">
+  <meta name="author" content="Zachary Dorf">
+  <link rel="canonical" href="https://dorf.nyc/media/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dorf.nyc/media/">
+  <meta property="og:title" content="Media | Zachary Dorf - Bask Health">
+  <meta property="og:description" content="Photos and videos from Bask Health events, offsites, and conferences.">
+  <meta property="og:image" content="https://dorf.nyc/images/preview-dorf.jpeg">
+  <meta property="og:site_name" content="Zachary Dorf">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Media | Zachary Dorf - Bask Health">
+  <meta name="twitter:description" content="Photos and videos from Bask Health events, offsites, and conferences.">
+  <meta name="twitter:image" content="https://dorf.nyc/images/preview-dorf.jpeg">
+  <meta name="twitter:site" content="@0xdorf">
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/pages.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://dorf.nyc/media/#webpage",
+    "url": "https://dorf.nyc/media/",
+    "name": "Media - Zachary Dorf",
+    "isPartOf": { "@id": "https://dorf.nyc/#website" },
+    "about": { "@id": "https://dorf.nyc/#person" }
+  }
+  </script>
+
+  <style>
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin: 1.5rem 0 3rem;
+    }
+
+    .media-item {
+      position: relative;
+      aspect-ratio: 1;
+      overflow: hidden;
+      border-radius: 4px;
+      background: #111;
+      border: 1px solid #1a1a1a;
+    }
+
+    .media-item img,
+    .media-item video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .media-item:hover img,
+    .media-item:hover video {
+      transform: scale(1.05);
+    }
+
+    .media-item.wide {
+      grid-column: span 2;
+    }
+
+    .media-item.tall {
+      grid-row: span 2;
+    }
+
+    .media-item.featured {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .media-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .media-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 8px 12px;
+      background: linear-gradient(transparent, rgba(0,0,0,0.8));
+      font-size: 0.75rem;
+      color: #aaa;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .media-item:hover .media-caption {
+      opacity: 1;
+    }
+
+    .section-description {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      .media-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .media-item.featured {
+        grid-column: span 2;
+        grid-row: span 1;
+      }
+
+      .media-item.wide {
+        grid-column: span 2;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <nav class="nav">
+      <a href="/"><img src="/images/dorf-logo.png" alt="Dorf" class="nav-logo"></a>
+      <a href="/" class="nav-brand">Zachary Dorf</a>
+      <a href="/about/">About</a>
+      <a href="/press/">Press</a>
+      <a href="/media/" class="active">Media</a>
+      <a href="/faq/">FAQ</a>
+    </nav>
+
+    <h1>Media</h1>
+    <p class="subtitle">Events, offsites, and behind the scenes</p>
+
+    <!-- NEW YORK ONSITE -->
+    <section class="section">
+      <h2>New York Onsite</h2>
+      <p class="section-description">Bask Health headquarters, New York City</p>
+      <div class="media-grid">
+        <div class="media-item featured">
+          <div class="media-placeholder">Photo</div>
+          <!-- <img src="/images/media/ny-1.jpg" alt="New York onsite"> -->
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ITALY OFFSITE 2025 -->
+    <section class="section">
+      <h2>Italy Offsite 2025</h2>
+      <p class="section-description">Bask Health team offsite, Italy</p>
+      <div class="media-grid">
+        <div class="media-item featured">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item wide">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HLTH 2025 -->
+    <section class="section">
+      <h2>HLTH 2025</h2>
+      <p class="section-description">HLTH Conference 2025</p>
+      <div class="media-grid">
+        <div class="media-item featured">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HLTH 2024 -->
+    <section class="section">
+      <h2>HLTH 2024</h2>
+      <p class="section-description">HLTH Conference 2024, Las Vegas</p>
+      <div class="media-grid">
+        <div class="media-item featured">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item wide">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISC -->
+    <section class="section">
+      <h2>Misc</h2>
+      <p class="section-description">Team moments, product launches, and everything in between</p>
+      <div class="media-grid">
+        <div class="media-item wide">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+        <div class="media-item">
+          <div class="media-placeholder">Photo</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="social-links">
+      <a href="https://x.com/0xdorf" target="_blank" rel="noopener">X / Twitter</a>
+      <a href="https://www.linkedin.com/in/zacharydorf" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://bask.health" target="_blank" rel="noopener">Bask Health</a>
+    </div>
+
+    <footer class="page-footer">
+      <p><a href="/">Home</a> &middot; <a href="/about/">About</a> &middot; <a href="/press/">Press</a> &middot; <a href="/media/">Media</a> &middot; <a href="/faq/">FAQ</a></p>
+      <p>&copy; 2026 Zachary Dorf. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -143,6 +143,7 @@ const InfoOverlay: React.FC<InfoOverlayProps> = ({ visible }) => {
                 <div style={styles.quickLinks}>
                     <a href="/about/" style={styles.quickLink}>ABOUT</a>
                     <a href="/press/" style={styles.quickLink}>PRESS</a>
+                    <a href="/media/" style={styles.quickLink}>MEDIA</a>
                     <a href="/faq/" style={styles.quickLink}>FAQ</a>
                 </div>
             )}

@@ -71,6 +71,9 @@ app.get('/press', (req, res) => {
 app.get('/faq', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../public/faq/index.html'));
 });
+app.get('/media', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../public/media/index.html'));
+});
 
 // Catch-all: serve main page for unmatched routes
 app.get('*', (req, res) => {
