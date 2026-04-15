@@ -61,6 +61,22 @@ app.post('/api/send-email', (req, res) => {
         });
 });
 
+// Clean URL support for SEO pages
+app.get('/about', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../public/about/index.html'));
+});
+app.get('/press', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../public/press/index.html'));
+});
+app.get('/faq', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../public/faq/index.html'));
+});
+
+// Catch-all: serve main page for unmatched routes
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../public/index.html'));
+});
+
 // listen to app on port 8080
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);

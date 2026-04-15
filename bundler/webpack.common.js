@@ -19,6 +19,24 @@ module.exports = {
             template: path.resolve(__dirname, '../src/index.html'),
             minify: true,
         }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, '../src/pages/about.html'),
+            filename: 'about/index.html',
+            inject: false,
+            minify: true,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, '../src/pages/press.html'),
+            filename: 'press/index.html',
+            inject: false,
+            minify: true,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, '../src/pages/faq.html'),
+            filename: 'faq/index.html',
+            inject: false,
+            minify: true,
+        }),
         new MiniCSSExtractPlugin(),
     ],
     resolve: {
@@ -29,10 +47,11 @@ module.exports = {
     },
     module: {
         rules: [
-            // HTML
+            // HTML (exclude page templates handled by HtmlWebpackPlugin)
             {
                 test: /\.(html)$/,
                 use: ['html-loader'],
+                exclude: /pages/,
             },
             {
                 test: /\.ts?$/,
