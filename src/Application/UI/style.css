@@ -135,6 +135,21 @@ br {
     color: #fff;
 }
 
+.info-overlay-quick-links a {
+    color: #888;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-family: monospace;
+    background: black;
+    padding: 4px 12px;
+    transition: color 0.2s;
+}
+
+.info-overlay-quick-links a:hover {
+    color: #fff;
+}
+
 .bios-start-button {
     background-color: #000;
     border: 4px solid #fff;
