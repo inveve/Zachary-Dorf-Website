@@ -43,6 +43,12 @@ module.exports = {
             inject: false,
             minify: true,
         }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, '../src/pages/quotes.html'),
+            filename: 'quotes/index.html',
+            inject: false,
+            minify: true,
+        }),
         new MiniCSSExtractPlugin(),
     ],
     resolve: {
