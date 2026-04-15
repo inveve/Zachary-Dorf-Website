@@ -139,6 +139,13 @@ const InfoOverlay: React.FC<InfoOverlayProps> = ({ visible }) => {
                     )}
                 </div>
             )}
+            {freeCamVisible && (
+                <div style={styles.quickLinks}>
+                    <a href="/about/" style={styles.quickLink}>ABOUT</a>
+                    <a href="/press/" style={styles.quickLink}>PRESS</a>
+                    <a href="/faq/" style={styles.quickLink}>FAQ</a>
+                </div>
+            )}
         </div>
     );
 };
@@ -175,6 +182,22 @@ const styles: StyleSheetCSS = {
     },
     lastRowChild: {
         marginRight: 4,
+    },
+    quickLinks: {
+        display: 'flex',
+        flexDirection: 'row',
+        gap: 4,
+        marginTop: 4,
+    },
+    quickLink: {
+        background: 'black',
+        padding: '4px 12px',
+        color: '#888',
+        textDecoration: 'none',
+        fontSize: 12,
+        letterSpacing: 1.5,
+        fontFamily: 'monospace',
+        transition: 'color 0.2s',
     },
 };
 

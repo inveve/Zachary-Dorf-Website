@@ -169,8 +169,8 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                             </div>
                         </div>
                         <div style={styles.headerInfo}>
-                            <p>Released: 01/06/2023</p>
-                            <p>HHBIOS (C)2023 Dorf Inc.,</p>
+                            <p>Released: 01/06/2026</p>
+                            <p>HHBIOS (C)2026 Dorf Inc.,</p>
                         </div>
                     </div>
                     <div style={styles.body} className="loading-screen-body">
@@ -239,7 +239,8 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                     <p>But do enjoy what I have done so far :)</p>
                     <div style={styles.spacer} />
                     <div style={styles.spacer} /> */}
-                    <p>Dorf Inc. - 2023</p>
+                    <p><b>Zachary Dorf</b></p>
+                    <p>Dorf Inc. - 2026</p>
                     {mobileWarning && (
                         <>
                             <br />
@@ -269,6 +270,11 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         <div className="bios-start-button" onClick={start}>
                             <p>START</p>
                         </div>
+                    </div>
+                    <div className="bios-nav-links">
+                        <a href="/about/">ABOUT</a>
+                        <a href="/press/">PRESS</a>
+                        <a href="/faq/">FAQ</a>
                     </div>
                 </div>
             </div>
