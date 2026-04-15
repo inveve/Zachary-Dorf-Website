@@ -274,6 +274,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                     <div className="bios-nav-links">
                         <a href="/about/">ABOUT</a>
                         <a href="/press/">PRESS</a>
+                        <a href="/media/">MEDIA</a>
                         <a href="/faq/">FAQ</a>
                     </div>
                 </div>

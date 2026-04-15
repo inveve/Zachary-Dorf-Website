@@ -19,6 +19,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dorf.nyc/media/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dorf.nyc/quotes/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://dorf.nyc/faq/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
